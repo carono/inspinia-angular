@@ -8,7 +8,7 @@ angular
         this.polarData = [
             {
                 value: 300,
-                color:"#a3e1d4",
+                color: "#a3e1d4",
                 highlight: "#1ab394",
                 label: "App"
             },
@@ -30,19 +30,19 @@ angular
          * Options for Polar chart
          */
         this.polarOptions = {
-            scaleShowLabelBackdrop : true,
-            scaleBackdropColor : "rgba(255,255,255,0.75)",
-            scaleBeginAtZero : true,
-            scaleBackdropPaddingY : 1,
-            scaleBackdropPaddingX : 1,
-            scaleShowLine : true,
-            segmentShowStroke : true,
-            segmentStrokeColor : "#fff",
-            segmentStrokeWidth : 2,
-            animationSteps : 100,
-            animationEasing : "easeOutBounce",
-            animateRotate : true,
-            animateScale : false
+            scaleShowLabelBackdrop: true,
+            scaleBackdropColor: "rgba(255,255,255,0.75)",
+            scaleBeginAtZero: true,
+            scaleBackdropPaddingY: 1,
+            scaleBackdropPaddingX: 1,
+            scaleShowLine: true,
+            segmentShowStroke: true,
+            segmentStrokeColor: "#fff",
+            segmentStrokeWidth: 2,
+            animationSteps: 100,
+            animationEasing: "easeOutBounce",
+            animateRotate: true,
+            animateScale: false
         };
 
         /**
@@ -51,7 +51,7 @@ angular
         this.doughnutData = [
             {
                 value: 300,
-                color:"#a3e1d4",
+                color: "#a3e1d4",
                 highlight: "#1ab394",
                 label: "App"
             },
@@ -73,14 +73,14 @@ angular
          * Options for Doughnut chart
          */
         this.doughnutOptions = {
-            segmentShowStroke : true,
-            segmentStrokeColor : "#fff",
-            segmentStrokeWidth : 2,
-            percentageInnerCutout : 45, // This is 0 for Pie charts
-            animationSteps : 100,
-            animationEasing : "easeOutBounce",
-            animateRotate : true,
-            animateScale : false
+            segmentShowStroke: true,
+            segmentStrokeColor: "#fff",
+            segmentStrokeWidth: 2,
+            percentageInnerCutout: 45, // This is 0 for Pie charts
+            animationSteps: 100,
+            animationEasing: "easeOutBounce",
+            animateRotate: true,
+            animateScale: false
         };
 
         /**
@@ -142,32 +142,32 @@ angular
          * Options for Line chart
          */
         this.lineOptions = {
-            scaleShowGridLines : true,
-            scaleGridLineColor : "rgba(0,0,0,.05)",
-            scaleGridLineWidth : 1,
-            bezierCurve : true,
-            bezierCurveTension : 0.4,
-            pointDot : true,
-            pointDotRadius : 4,
-            pointDotStrokeWidth : 1,
-            pointHitDetectionRadius : 20,
-            datasetStroke : true,
-            datasetStrokeWidth : 2,
-            datasetFill : true
+            scaleShowGridLines: true,
+            scaleGridLineColor: "rgba(0,0,0,.05)",
+            scaleGridLineWidth: 1,
+            bezierCurve: true,
+            bezierCurveTension: 0.4,
+            pointDot: true,
+            pointDotRadius: 4,
+            pointDotStrokeWidth: 1,
+            pointHitDetectionRadius: 20,
+            datasetStroke: true,
+            datasetStrokeWidth: 2,
+            datasetFill: true
         };
 
         /**
          * Options for Bar chart
          */
         this.barOptions = {
-            scaleBeginAtZero : true,
-            scaleShowGridLines : true,
-            scaleGridLineColor : "rgba(0,0,0,.05)",
-            scaleGridLineWidth : 1,
-            barShowStroke : true,
-            barStrokeWidth : 2,
-            barValueSpacing : 5,
-            barDatasetSpacing : 1
+            scaleBeginAtZero: true,
+            scaleShowGridLines: true,
+            scaleGridLineColor: "rgba(0,0,0,.05)",
+            scaleGridLineWidth: 1,
+            barShowStroke: true,
+            barStrokeWidth: 2,
+            barValueSpacing: 5,
+            barDatasetSpacing: 1
         };
 
         /**
@@ -228,23 +228,23 @@ angular
          * Options for Radar chart
          */
         this.radarOptions = {
-            scaleShowLine : true,
-            angleShowLineOut : true,
-            scaleShowLabels : false,
-            scaleBeginAtZero : true,
-            angleLineColor : "rgba(0,0,0,.1)",
-            angleLineWidth : 1,
-            pointLabelFontFamily : "'Arial'",
-            pointLabelFontStyle : "normal",
-            pointLabelFontSize : 10,
-            pointLabelFontColor : "#666",
-            pointDot : true,
-            pointDotRadius : 3,
-            pointDotStrokeWidth : 1,
-            pointHitDetectionRadius : 20,
-            datasetStroke : true,
-            datasetStrokeWidth : 2,
-            datasetFill : true
+            scaleShowLine: true,
+            angleShowLineOut: true,
+            scaleShowLabels: false,
+            scaleBeginAtZero: true,
+            angleLineColor: "rgba(0,0,0,.1)",
+            angleLineWidth: 1,
+            pointLabelFontFamily: "'Arial'",
+            pointLabelFontStyle: "normal",
+            pointLabelFontSize: 10,
+            pointLabelFontColor: "#666",
+            pointDot: true,
+            pointDotRadius: 3,
+            pointDotStrokeWidth: 1,
+            pointHitDetectionRadius: 20,
+            datasetStroke: true,
+            datasetStrokeWidth: 2,
+            datasetFill: true
         };
 
 

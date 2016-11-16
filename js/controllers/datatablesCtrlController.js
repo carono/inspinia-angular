@@ -1,6 +1,6 @@
 angular
     .module('inspinia')
-    .controller('datatablesCtrl', function ($scope,DTOptionsBuilder){
+    .controller('datatablesCtrl', function ($scope, DTOptionsBuilder) {
 
         $scope.dtOptions = DTOptionsBuilder.newOptions()
             .withDOM('<"html5buttons"B>lTfgitp')
@@ -10,8 +10,9 @@ angular
                 {extend: 'excel', title: 'ExampleFile'},
                 {extend: 'pdf', title: 'ExampleFile'},
 
-                {extend: 'print',
-                    customize: function (win){
+                {
+                    extend: 'print',
+                    customize: function (win) {
                         $(win.document.body).addClass('white-bg');
                         $(win.document.body).css('font-size', '10px');
 

@@ -16,7 +16,7 @@ angular
             {Name: "Berg", Age: 19, Position: 'UI/UX Designer', Status: 'active', Date: '12.11.2013'}
         ];
 
-        $scope.ngOptions = { data: 'ngData' };
+        $scope.ngOptions = {data: 'ngData'};
         $scope.ngOptions2 = {
             data: 'ngData',
             showGroupPanel: true,

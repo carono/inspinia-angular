@@ -5,7 +5,7 @@ angular
         $scope.formData = {};
 
         // After process wizard
-        $scope.processForm = function() {
+        $scope.processForm = function () {
             alert('Wizard completed');
         };
 

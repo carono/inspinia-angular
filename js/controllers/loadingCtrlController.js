@@ -1,16 +1,16 @@
 angular
     .module('inspinia')
-    .controller('loadingCtrl', function ($scope, $timeout){
+    .controller('loadingCtrl', function ($scope, $timeout) {
 
 
-        $scope.runLoading = function() {
+        $scope.runLoading = function () {
             // start loading
             $scope.loading = true;
 
-            $timeout(function(){
+            $timeout(function () {
                 // Simulate some service
                 $scope.loading = false;
-            },2000)
+            }, 2000)
         };
 
 
@@ -107,45 +107,45 @@ angular
         };
         $scope.runLoading11 = function () {
             // start loading
-            $timeout(function() {
+            $timeout(function () {
                 $scope.loading11 = 0.1;
             }, 500);
-            $timeout(function() {
+            $timeout(function () {
                 $scope.loading11 += 0.2;
             }, 1000);
-            $timeout(function() {
+            $timeout(function () {
                 $scope.loading11 += 0.3;
             }, 1500);
-            $timeout(function() {
+            $timeout(function () {
                 $scope.loading11 = false;
             }, 2000);
 
         };
         $scope.runLoading12 = function () {
             // start loading
-            $timeout(function() {
+            $timeout(function () {
                 $scope.loading12 = 0.1;
             }, 500);
-            $timeout(function() {
+            $timeout(function () {
                 $scope.loading12 += 0.2;
             }, 1000);
-            $timeout(function() {
+            $timeout(function () {
                 $scope.loading12 += 0.3;
             }, 1500);
-            $timeout(function() {
+            $timeout(function () {
                 $scope.loading12 = false;
             }, 2000);
 
         };
 
-        $scope.runLoadingDemo = function() {
+        $scope.runLoadingDemo = function () {
             // start loading
             $scope.loadingDemo = true;
 
-            $timeout(function(){
+            $timeout(function () {
                 // Simulate some service
                 $scope.loadingDemo = false;
-            },2000)
+            }, 2000)
         };
 
 

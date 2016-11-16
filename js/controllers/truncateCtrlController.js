@@ -1,6 +1,6 @@
 angular
     .module('inspinia')
-    .controller('truncateCtrl', function ($scope){
+    .controller('truncateCtrl', function ($scope) {
 
         $scope.truncateOptions = {
             watch: 'window'

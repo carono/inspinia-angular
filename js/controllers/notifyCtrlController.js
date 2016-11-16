@@ -14,16 +14,32 @@ angular
         };
 
         $scope.inspiniaTemplate = 'views/common/notify.html';
-        $scope.inspiniaDemo1 = function(){
-            notify({ message: 'Info - This is a Inspinia info notification', classes: 'alert-info', templateUrl: $scope.inspiniaTemplate});
+        $scope.inspiniaDemo1 = function () {
+            notify({
+                message: 'Info - This is a Inspinia info notification',
+                classes: 'alert-info',
+                templateUrl: $scope.inspiniaTemplate
+            });
         }
-        $scope.inspiniaDemo2 = function(){
-            notify({ message: 'Success - This is a Inspinia success notification', classes: 'alert-success', templateUrl: $scope.inspiniaTemplate});
+        $scope.inspiniaDemo2 = function () {
+            notify({
+                message: 'Success - This is a Inspinia success notification',
+                classes: 'alert-success',
+                templateUrl: $scope.inspiniaTemplate
+            });
         }
-        $scope.inspiniaDemo3 = function(){
-            notify({ message: 'Warning - This is a Inspinia warning notification', classes: 'alert-warning', templateUrl: $scope.inspiniaTemplate});
+        $scope.inspiniaDemo3 = function () {
+            notify({
+                message: 'Warning - This is a Inspinia warning notification',
+                classes: 'alert-warning',
+                templateUrl: $scope.inspiniaTemplate
+            });
         }
-        $scope.inspiniaDemo4 = function(){
-            notify({ message: 'Danger - This is a Inspinia danger notification', classes: 'alert-danger', templateUrl: $scope.inspiniaTemplate});
+        $scope.inspiniaDemo4 = function () {
+            notify({
+                message: 'Danger - This is a Inspinia danger notification',
+                classes: 'alert-danger',
+                templateUrl: $scope.inspiniaTemplate
+            });
         }
     });

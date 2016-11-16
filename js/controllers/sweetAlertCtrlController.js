@@ -44,7 +44,8 @@ angular
                     confirmButtonText: "Yes, delete it!",
                     cancelButtonText: "No, cancel plx!",
                     closeOnConfirm: false,
-                    closeOnCancel: false },
+                    closeOnCancel: false
+                },
                 function (isConfirm) {
                     if (isConfirm) {
                         SweetAlert.swal("Deleted!", "Your imaginary file has been deleted.", "success");

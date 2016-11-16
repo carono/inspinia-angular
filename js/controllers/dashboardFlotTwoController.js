@@ -74,7 +74,7 @@ angular
         var dataset = [
             {
                 label: "Number of orders",
-                grow:{stepMode:"linear"},
+                grow: {stepMode: "linear"},
                 data: data2,
                 color: "#1ab394",
                 bars: {
@@ -87,7 +87,7 @@ angular
             },
             {
                 label: "Payments",
-                grow:{stepMode:"linear"},
+                grow: {stepMode: "linear"},
                 data: data1,
                 yaxis: 2,
                 color: "#1C84C6",

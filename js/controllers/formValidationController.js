@@ -2,7 +2,7 @@ angular
     .module('inspinia')
     .controller('formValidation', function ($scope) {
 
-        $scope.signupForm = function() {
+        $scope.signupForm = function () {
             if ($scope.signup_form.$valid) {
                 // Submit as normal
             } else {
@@ -10,7 +10,7 @@ angular
             }
         }
 
-        $scope.signupForm2 = function() {
+        $scope.signupForm2 = function () {
             if ($scope.signup_form.$valid) {
                 // Submit as normal
             }

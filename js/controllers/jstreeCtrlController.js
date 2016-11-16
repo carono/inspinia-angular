@@ -3,25 +3,25 @@ angular
     .controller('jstreeCtrl', function ($scope) {
 
         $scope.treeConfig = {
-            'plugins' : [ 'types', 'dnd' ],
-            'types' : {
-                'default' : {
-                    'icon' : 'fa fa-folder'
+            'plugins': ['types', 'dnd'],
+            'types': {
+                'default': {
+                    'icon': 'fa fa-folder'
                 },
-                'html' : {
-                    'icon' : 'fa fa-file-code-o'
+                'html': {
+                    'icon': 'fa fa-file-code-o'
                 },
-                'svg' : {
-                    'icon' : 'fa fa-file-picture-o'
+                'svg': {
+                    'icon': 'fa fa-file-picture-o'
                 },
-                'css' : {
-                    'icon' : 'fa fa-file-code-o'
+                'css': {
+                    'icon': 'fa fa-file-code-o'
                 },
-                'img' : {
-                    'icon' : 'fa fa-file-image-o'
+                'img': {
+                    'icon': 'fa fa-file-image-o'
                 },
-                'js' : {
-                    'icon' : 'fa fa-file-text-o'
+                'js': {
+                    'icon': 'fa fa-file-text-o'
                 }
 
             }
@@ -90,7 +90,7 @@ angular
                 "state": {
                     "opened": true
                 },
-                "type":"img",
+                "type": "img",
                 "__uiNodeId": 9
             },
             {
@@ -100,7 +100,7 @@ angular
                 "state": {
                     "opened": true
                 },
-                "type":"svg",
+                "type": "svg",
                 "__uiNodeId": 10
             },
             {
@@ -110,7 +110,7 @@ angular
                 "state": {
                     "opened": true
                 },
-                "type":"img",
+                "type": "img",
                 "__uiNodeId": 11
             },
             {
@@ -120,7 +120,7 @@ angular
                 "state": {
                     "opened": true
                 },
-                "type":"img",
+                "type": "img",
                 "__uiNodeId": 12
             },
             {
@@ -190,7 +190,7 @@ angular
                 "state": {
                     "opened": true
                 },
-                "type":"js",
+                "type": "js",
                 "__uiNodeId": 17
             },
             {
@@ -200,7 +200,7 @@ angular
                 "state": {
                     "opened": true
                 },
-                "type":"js",
+                "type": "js",
                 "__uiNodeId": 18
             },
             {
@@ -210,7 +210,7 @@ angular
                 "state": {
                     "opened": true
                 },
-                "type":"js",
+                "type": "js",
                 "__uiNodeId": 19
             },
             {
@@ -220,85 +220,85 @@ angular
                 "state": {
                     "opened": true
                 },
-                "type":"js",
-                "__uiNodeId":20
+                "type": "js",
+                "__uiNodeId": 20
             },
             {
                 "id": "ajson21",
                 "parent": "ajson1",
                 "text": "affix.html",
-                "type":"html",
-                "__uiNodeId":21
+                "type": "html",
+                "__uiNodeId": 21
             },
             {
                 "id": "ajson22",
                 "parent": "ajson1",
                 "text": "dashboard.html",
-                "type":"html",
-                "__uiNodeId":22
+                "type": "html",
+                "__uiNodeId": 22
             },
             {
                 "id": "ajson23",
                 "parent": "ajson1",
                 "text": "buttons.html",
-                "type":"html",
-                "__uiNodeId":23
+                "type": "html",
+                "__uiNodeId": 23
             },
             {
                 "id": "ajson24",
                 "parent": "ajson1",
                 "text": "calendar.html",
-                "type":"html",
-                "__uiNodeId":24
+                "type": "html",
+                "__uiNodeId": 24
             },
             {
                 "id": "ajson25",
                 "parent": "ajson1",
                 "text": "contacts.html",
-                "type":"html",
-                "__uiNodeId":25
+                "type": "html",
+                "__uiNodeId": 25
             },
             {
                 "id": "ajson26",
                 "parent": "ajson1",
                 "text": "css_animation.html",
-                "type":"html",
-                "__uiNodeId":26
+                "type": "html",
+                "__uiNodeId": 26
             },
             {
                 "id": "ajson27",
                 "parent": "ajson1",
                 "text": "flot_chart.html",
-                "type":"html",
-                "__uiNodeId":27
+                "type": "html",
+                "__uiNodeId": 27
             },
             {
                 "id": "ajson28",
                 "parent": "ajson1",
                 "text": "google_maps.html",
-                "type":"html",
-                "__uiNodeId":28
+                "type": "html",
+                "__uiNodeId": 28
             },
             {
                 "id": "ajson29",
                 "parent": "ajson1",
                 "text": "icons.html",
-                "type":"html",
-                "__uiNodeId":29
+                "type": "html",
+                "__uiNodeId": 29
             },
             {
                 "id": "ajson30",
                 "parent": "ajson1",
                 "text": "invoice.html",
-                "type":"html",
-                "__uiNodeId":30
+                "type": "html",
+                "__uiNodeId": 30
             },
             {
                 "id": "ajson31",
                 "parent": "ajson1",
                 "text": "login.html",
-                "type":"html",
-                "__uiNodeId":31
+                "type": "html",
+                "__uiNodeId": 31
             }
         ]
 

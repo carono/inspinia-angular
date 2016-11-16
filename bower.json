@@ -29,5 +29,8 @@
     "PACE": "pace#^1.0.2",
     "metisMenu": "2.0.2",
     "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "angular-translate": "^2.13.0"
   }
 }

@@ -5,7 +5,7 @@ angular
             lineNumbers: true,
             matchBrackets: true,
             styleActiveLine: true,
-            theme:"ambiance"
+            theme: "ambiance"
         };
 
         $scope.editorOptions2 = {

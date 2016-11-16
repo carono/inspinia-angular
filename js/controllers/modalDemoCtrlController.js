@@ -1,6 +1,6 @@
 angular
     .module('inspinia')
-    .controller('modalDemoCtrl', function ($scope, $uibModal,$controller) {
+    .controller('modalDemoCtrl', function ($scope, $uibModal, $controller) {
 
         $scope.open = function () {
 
