@@ -488,7 +488,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
         .state('forms.wizard', {
             url: "/wizard",
             templateUrl: "views/form_wizard.html",
-            controller: wizardCtrl,
+            controller: 'wizardCtrl',
             data: { pageTitle: 'Wizard form' },
             resolve: {
                 loadPlugin: function ($ocLazyLoad) {
