@@ -49,7 +49,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         },
                         {
                             name: 'angles',
-                            files: ['js/plugins/chartJs/angles.js', 'js/plugins/chartJs/Chart.min.js']
+                            files: ['js/plugins/chartJs/angles.js', 'lib/Chart.js/Chart.min.js']
                         },
                         {
                             name: 'angular-peity',
@@ -108,7 +108,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                     return $ocLazyLoad.load([
                         {
                             name: 'angles',
-                            files: ['js/plugins/chartJs/angles.js', 'js/plugins/chartJs/Chart.min.js']
+                            files: ['js/plugins/chartJs/angles.js', 'lib/Chart.js/Chart.min.js']
                         },
                         {
                             name: 'angular-peity',
@@ -136,7 +136,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                     return $ocLazyLoad.load([
                         {
                             name: 'angles',
-                            files: ['js/plugins/chartJs/angles.js', 'js/plugins/chartJs/Chart.min.js']
+                            files: ['js/plugins/chartJs/angles.js', 'lib/Chart.js/Chart.min.js']
                         },
                         {
                             name: 'angular-peity',
@@ -169,7 +169,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                     return $ocLazyLoad.load([
                         {
                             name: 'angles',
-                            files: ['js/plugins/chartJs/angles.js', 'js/plugins/chartJs/Chart.min.js']
+                            files: ['js/plugins/chartJs/angles.js', 'lib/Chart.js/Chart.min.js']
                         },
                         {
                             name: 'angular-peity',
@@ -314,7 +314,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                 loadPlugin: function ($ocLazyLoad) {
                     return $ocLazyLoad.load([
                         {
-                            files: ['js/plugins/chartJs/Chart.min.js']
+                            files: ['lib/Chart.js/Chart.min.js']
                         },
                         {
                             name: 'angles',
@@ -525,9 +525,9 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                             insertBefore: '#loadBefore',
                             name: 'localytics.directives',
                             files: [
-                                'css/plugins/chosen/chosen.css',
-                                'js/plugins/chosen/chosen.jquery.js',
-                                'js/plugins/chosen/chosen.js'
+                                'lib/chosen/chosen.css',
+                                'lib/chosen/chosen.jquery.js',
+                                'js/plugins/chosen/chosen.js' // Inspinia custom ?
                             ]
                         },
                         {
