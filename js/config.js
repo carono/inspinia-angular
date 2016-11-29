@@ -24,7 +24,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
         .state('dashboards', {
             abstract: true,
             url: "/dashboards",
-            templateUrl: "views/common/content.html",
+            templateUrl: "views/common/content.html"
         })
         .state('dashboards.dashboard_1', {
             url: "/dashboard_1",
@@ -77,7 +77,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                                 'js/plugins/flot/jquery.flot.resize.js',
                                 'js/plugins/flot/jquery.flot.pie.js',
                                 'js/plugins/flot/curvedLines.js',
-                                'js/plugins/flot/angular-flot.js',
+                                'js/plugins/flot/angular-flot.js'
                             ]
                         },
                         {
@@ -125,7 +125,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
         .state('dashboards_top', {
             abstract: true,
             url: "/dashboards_top",
-            templateUrl: "views/common/content_top_navigation.html",
+            templateUrl: "views/common/content_top_navigation.html"
         })
         .state('dashboards_top.dashboard_4', {
             url: "/dashboard_4",
@@ -153,7 +153,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                                 'js/plugins/flot/jquery.flot.resize.js',
                                 'js/plugins/flot/jquery.flot.pie.js',
                                 'js/plugins/flot/curvedLines.js',
-                                'js/plugins/flot/angular-flot.js',
+                                'js/plugins/flot/angular-flot.js'
                             ]
                         }
                     ]);
@@ -186,7 +186,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                                 'js/plugins/flot/jquery.flot.resize.js',
                                 'js/plugins/flot/jquery.flot.pie.js',
                                 'js/plugins/flot/curvedLines.js',
-                                'js/plugins/flot/angular-flot.js',
+                                'js/plugins/flot/angular-flot.js'
                             ]
                         }
                     ]);
@@ -211,7 +211,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                                 'js/plugins/flot/jquery.flot.resize.js',
                                 'js/plugins/flot/jquery.flot.pie.js',
                                 'js/plugins/flot/curvedLines.js',
-                                'js/plugins/flot/angular-flot.js',
+                                'js/plugins/flot/angular-flot.js'
                             ]
                         },
                         {
@@ -224,12 +224,12 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
         .state('layouts', {
             url: "/layouts",
             templateUrl: "views/layouts.html",
-            data: {pageTitle: 'Layouts'},
+            data: {pageTitle: 'Layouts'}
         })
         .state('charts', {
             abstract: true,
             url: "/charts",
-            templateUrl: "views/common/content.html",
+            templateUrl: "views/common/content.html"
         })
         .state('charts.flot_chart', {
             url: "/flot_chart",
@@ -249,7 +249,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                                 'js/plugins/flot/jquery.flot.resize.js',
                                 'js/plugins/flot/jquery.flot.pie.js',
                                 'js/plugins/flot/curvedLines.js',
-                                'js/plugins/flot/angular-flot.js',
+                                'js/plugins/flot/angular-flot.js'
                             ]
                         }
                     ]);
@@ -354,15 +354,15 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         {
                             serie: true,
                             files: [
-                                'css/plugins/c3/c3.min.css',
-                                'js/plugins/d3/d3.min.js',
-                                'js/plugins/c3/c3.min.js'
+                                'lib/c3/c3.min.css',
+                                'lib/d3/d3.min.js',
+                                'lib/c3/c3.min.js'
                             ]
                         },
                         {
                             serie: true,
                             name: 'gridshore.c3js.chart',
-                            files: ['js/plugins/c3/c3-angular.min.js']
+                            files: ['lib/c3-angular/c3-angular.min.js']
                         }
                     ]);
                 }
@@ -371,7 +371,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
         .state('mailbox', {
             abstract: true,
             url: "/mailbox",
-            templateUrl: "views/common/content.html",
+            templateUrl: "views/common/content.html"
         })
         .state('mailbox.inbox', {
             url: "/inbox",
@@ -442,7 +442,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                                 'js/plugins/flot/jquery.flot.resize.js',
                                 'js/plugins/flot/jquery.flot.pie.js',
                                 'js/plugins/flot/curvedLines.js',
-                                'js/plugins/flot/angular-flot.js',
+                                'js/plugins/flot/angular-flot.js'
                             ]
                         },
                         {
@@ -484,7 +484,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
         .state('forms', {
             abstract: true,
             url: "/forms",
-            templateUrl: "views/common/content.html",
+            templateUrl: "views/common/content.html"
         })
         .state('forms.basic_form', {
             url: "/basic_form",
@@ -689,7 +689,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
         .state('app', {
             abstract: true,
             url: "/app",
-            templateUrl: "views/common/content.html",
+            templateUrl: "views/common/content.html"
         })
         .state('app.contacts', {
             url: "/contacts",
@@ -866,7 +866,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
         .state('ui', {
             abstract: true,
             url: "/ui",
-            templateUrl: "views/common/content.html",
+            templateUrl: "views/common/content.html"
         })
         .state('ui.typography', {
             url: "/typography",
@@ -931,7 +931,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
         .state('miscellaneous', {
             abstract: true,
             url: "/miscellaneous",
-            templateUrl: "views/common/content.html",
+            templateUrl: "views/common/content.html"
         })
         .state('miscellaneous.google_maps', {
             url: "/google_maps",
@@ -947,7 +947,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         {
                             name: 'ui.map',
                             files: ['js/plugins/uimaps/ui-map.js']
-                        },
+                        }
                     ]);
                 }
             }
@@ -1246,13 +1246,13 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         {
                             insertBefore: '#loadBefore',
                             files: [
-                                'js/plugins/bootstrap-tour/bootstrap-tour.min.js',
-                                'css/plugins/bootstrap-tour/bootstrap-tour.min.css'
+                                'lib/bootstrap-tour/build/js/bootstrap-tour.min.js',
+                                'lib/bootstrap-tour/build/css/bootstrap-tour.min.css'
                             ]
                         },
                         {
                             name: 'bm.bsTour',
-                            files: ['js/plugins/angular-bootstrap-tour/angular-bootstrap-tour.min.js']
+                            files: ['lib/angular-bootstrap-tour/dist/angular-bootstrap-tour.min.js']
                         }
                     ]);
                 }
@@ -1539,7 +1539,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                 loadPlugin: function ($ocLazyLoad) {
                     return $ocLazyLoad.load([
                         {
-                            files: ['js/plugins/wow/wow.min.js']
+                            files: ['lib/wow/dist/wow.min.js']
                         }
                     ]);
                 }
