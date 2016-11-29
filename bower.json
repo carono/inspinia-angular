@@ -37,7 +37,10 @@
     "bootstrap-markdown": "2.9.0",
     "markdown": "^0.5.0",
     "chosen": "^1.6.2",
-    "Chart.js": "chart.js#1.0.1-beta.4"
+    "Chart.js": "chart.js#1.0.1-beta.4",
+    "angular-diff-match-patch": "^0.4.0",
+    "clipboard": "1.5.5",
+    "ngclipboard": "1.0.0"
   },
   "devDependencies": {
     "angular-translate": "^2.13.0"

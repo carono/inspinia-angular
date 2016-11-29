@@ -1045,11 +1045,11 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                 loadPlugin: function ($ocLazyLoad) {
                     return $ocLazyLoad.load([
                         {
-                            files: ['js/plugins/diff_match_patch/javascript/diff_match_patch.js']
+                            files: ['js/plugins/diff_match_patch/javascript/diff_match_patch.js'] // no available in bower
                         },
                         {
                             name: 'diff-match-patch',
-                            files: ['js/plugins/angular-diff-match-patch/angular-diff-match-patch.js']
+                            files: ['lib/angular-diff-match-patch/angular-diff-match-patch.js']
                         }
                     ]);
                 }
@@ -1205,11 +1205,11 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                 loadPlugin: function ($ocLazyLoad) {
                     return $ocLazyLoad.load([
                         {
-                            files: ['js/plugins/ngclipboard/clipboard.min.js']
+                            files: ['lib/clipboard/dist/clipboard.min.js']
                         },
                         {
                             name: 'ngclipboard',
-                            files: ['js/plugins/ngclipboard/ngclipboard.min.js']
+                            files: ['lib/ngclipboard/dist/ngclipboard.min.js']
                         }
                     ]);
                 }
