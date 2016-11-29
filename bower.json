@@ -31,9 +31,18 @@
     "font-awesome": "^4.7.0",
     "wow": "1.0.2",
     "angular-bootstrap-tour": "0.3.2",
-    "c3-angular": "0.7.1"
+    "c3-angular": "0.7.1",
+    "angular-notify": "2.0.2",
+    "chartist": "0.8.3",
+    "bootstrap-markdown": "2.9.0",
+    "markdown": "^0.5.0"
   },
   "devDependencies": {
     "angular-translate": "^2.13.0"
+  },
+  "resolutions": {
+    "jquery": "2.1.4",
+    "angular": "1.5.9",
+    "bootstrap": "3.3.7"
   }
 }

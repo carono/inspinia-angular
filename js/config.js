@@ -335,9 +335,9 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                             serie: true,
                             name: 'angular-chartist',
                             files: [
-                                'js/plugins/chartist/chartist.min.js',
+                                'lib/chartist/dist/chartist.min.js', // inspinia css chartlist
                                 'css/plugins/chartist/chartist.min.css',
-                                'js/plugins/chartist/angular-chartist.min.js'
+                                'js/plugins/chartist/angular-chartist.min.js' // not found in bower
                             ]
                         }
                     ]);
@@ -677,9 +677,9 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         {
                             serie: true,
                             files: [
-                                'js/plugins/bootstrap-markdown/bootstrap-markdown.js',
-                                'js/plugins/bootstrap-markdown/markdown.js',
-                                'css/plugins/bootstrap-markdown/bootstrap-markdown.min.css'
+                                'lib/bootstrap-markdown/js/bootstrap-markdown.js',
+                                'lib/markdown/lib/markdown.js',
+                                'lib/bootstrap-markdown/css/bootstrap-markdown.min.css'
                             ]
                         }
                     ]);
@@ -1014,8 +1014,8 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         {
                             name: 'cgNotify',
                             files: [
-                                'css/plugins/angular-notify/angular-notify.min.css',
-                                'js/plugins/angular-notify/angular-notify.min.js'
+                                'lib/angular-notify/dist/angular-notify.min.css',
+                                'lib/angular-notify/dist/angular-notify.min.js'
                             ]
                         }
                     ]);
