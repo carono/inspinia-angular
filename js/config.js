@@ -1086,8 +1086,8 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         {
                             name: 'cgNotify',
                             files: [
-                                'css/plugins/angular-notify/angular-notify.min.css',
-                                'js/plugins/angular-notify/angular-notify.min.js'
+                                'lib/angular-notify/dist/angular-notify.min.css',
+                                'lib/angular-notify/dist/angular-notify.min.js'
                             ]
                         }
                     ]);
