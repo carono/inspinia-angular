@@ -93,7 +93,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         },
                         {
                             name: 'ui.checkbox',
-                            files: ['js/bootstrap/angular-bootstrap-checkbox.js']
+                            files: ['lib/angular-bootstrap-checkbox/angular-bootstrap-checkbox.js']
                         }
                     ]);
                 }
@@ -116,7 +116,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         },
                         {
                             name: 'ui.checkbox',
-                            files: ['js/bootstrap/angular-bootstrap-checkbox.js']
+                            files: ['lib/angular-bootstrap-checkbox/angular-bootstrap-checkbox.js']
                         }
                     ]);
                 }
@@ -461,7 +461,7 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         },
                         {
                             name: 'ui.checkbox',
-                            files: ['js/bootstrap/angular-bootstrap-checkbox.js']
+                            files: ['lib/angular-bootstrap-checkbox/angular-bootstrap-checkbox.js']
                         }
                     ]);
                 }
