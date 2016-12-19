@@ -42,7 +42,8 @@
     "clipboard": "1.5.5",
     "ngclipboard": "1.0.0",
     "angular-bootstrap-checkbox": "^0.5.0",
-    "clockpicker": "^0.0.7"
+    "clockpicker": "^0.0.7",
+    "angular-bootstrap-colorpicker": "^3.0.25"
   },
   "devDependencies": {
     "angular-translate": "^2.13.0"

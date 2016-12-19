@@ -565,8 +565,8 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         {
                             name: 'colorpicker.module',
                             files: [
-                                'css/plugins/colorpicker/colorpicker.css',
-                                'js/plugins/colorpicker/bootstrap-colorpicker-module.js'
+                                'lib/angular-bootstrap-colorpicker/css/colorpicker.min.css',
+                                'lib/angular-bootstrap-colorpicker/js/bootstrap-colorpicker-module.min.js'
                             ]
                         },
                         {
