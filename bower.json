@@ -41,7 +41,8 @@
     "angular-diff-match-patch": "^0.4.0",
     "clipboard": "1.5.5",
     "ngclipboard": "1.0.0",
-    "angular-bootstrap-checkbox": "^0.5.0"
+    "angular-bootstrap-checkbox": "^0.5.0",
+    "clockpicker": "^0.0.7"
   },
   "devDependencies": {
     "angular-translate": "^2.13.0"

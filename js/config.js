@@ -549,7 +549,10 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                             files: ['js/plugins/jasny/jasny-bootstrap.min.js']
                         },
                         {
-                            files: ['css/plugins/clockpicker/clockpicker.css', 'js/plugins/clockpicker/clockpicker.js']
+                            files: [
+                                'lib/clockpicker/dist/jquery-clockpicker.min.css',
+                                'lib/clockpicker/dist/jquery-clockpicker.min.js'
+                            ]
                         },
                         {
                             name: 'ui.switchery',
