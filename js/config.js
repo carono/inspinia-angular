@@ -541,8 +541,8 @@ function config($stateProvider, $urlRouterProvider, $ocLazyLoadProvider, IdlePro
                         {
                             name: 'datePicker',
                             files: [
-                                'css/plugins/datapicker/angular-datapicker.css',
-                                'js/plugins/datapicker/angular-datepicker.js'
+                                'lib/angular-datepicker/dist/angular-datepicker.min.css',
+                                'lib/angular-datepicker/dist/angular-datepicker.min.js'
                             ]
                         },
                         {
